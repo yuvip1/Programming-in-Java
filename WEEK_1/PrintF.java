@@ -9,6 +9,8 @@ public class PrintF {
 
     public static void main(String[] args){
 
+        //PROGRAM 1
+
         // String name = "Yuvraj";
         // char surname = 'P';
         // int age = 21;
@@ -22,21 +24,43 @@ public class PrintF {
         // System.out.printf("Am I employed? %b\n", isEmployed);
 
 
-        //Presicion (between % and f)
+        //Presicion (between % and flags)
         /* 
         // .1%s precises the decimal to 1 digit 
         // + = output a plus (to show  +ve sign)
         // , = to group 
         // ( = to show -ve number enclosed in ()
         // space = display a -ve sign if negative, space if positive
+        // (these operators should be  put between % and flags)
         */
-        double price1 = 9.99;
-        double price2 = 100.15;
-        double price3 = -54.15;
+        
+        //PROGRAM 2
 
-        System.out.printf("%(.1f\n", price1);
-        System.out.printf("%(.1f\n", price2);
-        System.out.printf("%(.1f\n", price3);
+
+        // double price1 = 9.99;
+        // double price2 = 100.15;
+        // double price3 = -54.15;
+
+        // System.out.printf("%(.1f\n", price1);
+        // System.out.printf("%(.1f\n", price2);
+        // System.out.printf("%(.1f\n", price3);
+
+        //PROGRAM 2
+
+        //WIDTH 
+        // O = Zero Padding
+        //number = right justified padding(REMOVE THE 0 BEFORE 4)
+        //negativE = left justified padding(ADD - SIGN BEFORE 4)
+
+        int id1 = 1;
+        int id2 = 234;
+        int id3 = 5678;
+
+        System.out.printf("%04d\n", id1);
+        System.out.printf("%04d\n", id2);
+        System.out.printf("%04d\n", id3);
+
+        
         
 
     }
