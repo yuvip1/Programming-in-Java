@@ -1,17 +1,17 @@
 import java.util.Scanner;
-public class Myfirstprogram {
-    public static void main(String[] args){
+public class ScannerClass {
+    public static void main(String [] args){
 
-        // String name = "Yuvraj";
-        // String Charr = "Good";
-        // int age = 21;
-        // char currency = '$';
-        // boolean isStudent= true;
-
-        // System.out.println( name );
-        // System.out.println("He is " + name +  " and he is " + Charr + " and his age is " + age );
-      
         // Scanner Class
+        /*SYNTAX:
+        
+        import java.util.Scanner;
+        Scanner sc = new Scanner(System.in);
+        
+        soutprint(); 
+        String name = sc.nextLine(); -> allows users to give input
+        
+        sc.close();*/
 
         Scanner scanner = new Scanner(System.in);
 
@@ -46,5 +46,6 @@ public class Myfirstprogram {
 
         
     }
+
+    }
     
-}

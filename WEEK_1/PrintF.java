@@ -26,7 +26,7 @@ public class PrintF {
 
         //Presicion (between % and flags)
         /* 
-        // .1%s precises the decimal to 1 digit 
+        // %.1s precises the decimal to 1 digit 
         // + = output a plus (to show  +ve sign)
         // , = to group 
         // ( = to show -ve number enclosed in ()
@@ -56,9 +56,9 @@ public class PrintF {
         int id2 = 234;
         int id3 = 5678;
 
-        System.out.printf("%04d\n", id1);
-        System.out.printf("%04d\n", id2);
-        System.out.printf("%04d\n", id3);
+        System.out.printf("%4d\n", id1);
+        System.out.printf("%4d\n", id2);
+        System.out.printf("%4d\n", id3);
 
         
         

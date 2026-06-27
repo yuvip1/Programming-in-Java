@@ -20,7 +20,11 @@ public class TernaryOperator {
 
     int number = 4;
 
-    String evenOrodd = (number % 2 == 0) ? "EVEN" : "ODD" ;
+    String evenOrodd = (number % 2 == 0) ? "EVEN" : "ODD" ; 
+    
+    //modulus op (%) : gives the remainder when a number is divided by a number 
+    // == means equals to the number
+
 
     System.out.println(evenOrodd);
 
